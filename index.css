@@ -1,0 +1,153 @@
+body{
+    
+    background-image: url("images (23).jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    background: rgba(8, 233, 128, 0.5); font-family: calibri; padding-right: 15px;padding-left: 15px; border-radius: 0px; margin: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 5px; font-weight:bold;font-size: 30px; color: white; float: right;
+}
+.dope{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.profview{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px
+}
+.profile{
+    border-radius: 30px;
+    box-shadow: inset -2px 2px 2px #05f619;
+    height: 215px;
+    width: 400px;
+}
+.about{
+    color: white; font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+    background-color: rgba(8, 233, 128, 0.5); padding: 15px; margin: -8px;
+}
+.bothold{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.bot{
+    border-radius: 40px;
+    height: 45px;
+    width: 45px;
+    border:solid #323232;
+    background-color: rgba(91, 246, 13, 0.9);
+}
+img{
+    border-radius: 20px; width: 45px; height: 45px; margin: 0px;
+}
+li{
+    list-style: none; display: inline-block;font-weight:bold;    
+}
+a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px; font-size: 25px;
+}
+button{
+    background-color: #212121; border: solid rgb(86, 251, 10); border-radius: 15px;
+}
+button a{
+    margin: 5px; font-size: 25px;
+}
+iframe{
+    padding: 5px;
+    margin: 5px;
+}
+/* *{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+.container{
+    background:linear-gradient(45deg, blueviolet, lightgreen);
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container .box-container .box img{
+    height: 80px;
+}
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+} */
